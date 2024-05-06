@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto mono', 'monspace';
+    background-color: rgb(248, 248, 239) ;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+
+}
+header .header-icons-container {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    background-color: #47cfac;
+}
+header .header-icons-container .icons_boton {
+    width: 500px;
+    height: 30px;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 200px;
+  
+}
+.home-main {
+    display: grid;
+    width: 100%;
+    height: 300px;
+    background-image: url('Imagenes/Encabezado2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+nav .nav-logo-container img {
+    width: 280px;
+    margin-top: 20px;
+}
+.fondo-body {
+    background-image: url('Imagenes/Encabezado.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.icons_boton {
+    display: inline-block;
+    padding: 40px 40px; 
+    color: #141414; 
+    text-decoration: none; 
+    border: none; 
+    border-radius: 100px; 
+    cursor: pointer;
+    width: 500px;
+    height: 30px;
+}
+.contenedor-tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según tu diseño */
+  }
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.center-input {
+    display: block;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
